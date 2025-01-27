@@ -1,0 +1,16 @@
+.page-header {
+  background: linear-gradient(rgba(88, 88, 88, 0.651), rgba(202, 198, 198, 0.445)), url('/assets/images/car-service.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.page-header-inner {
+  background: rgba(0, 0, 0, .7);
+}
+
+.text-primary
+{
+color: var(--primary) !important;
+}

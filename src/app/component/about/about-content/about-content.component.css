@@ -1,0 +1,37 @@
+.card{
+background-color: rgb(253, 253, 253);
+margin: 10px 10px;
+padding: 10px 10px;
+border: none  ;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.card i {
+  color: var(--primary);
+  font-size: 2.5rem;
+}
+
+.card-title{
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(36, 35, 35);
+}
+
+.card-text{
+  color: rgb(107, 107, 107);
+  font-size: 14px;
+}
+.banner-btn{
+  color: #ffff;
+  background-color: var(--primary);
+}
+.banner-btn:hover{
+
+  color:var(--primary) ;
+  background-color: #ffff;
+}
+
+.text-secondary
+{
+  color: rgba(0, 0, 0, 0.918);
+}

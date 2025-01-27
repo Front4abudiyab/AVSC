@@ -1,0 +1,97 @@
+.banner {
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.589)), url('/assets/images/car-service.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-title {
+  font-size: 6em;
+  font-weight: 600;
+  color: var(--primary)
+}
+
+.en-title {
+  font-size: 1.5em;
+  color: #ffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.ar-title {
+  font-size: 1.5em;
+  color: #ffff;
+
+}
+
+.desc {
+  font-size: 16px;
+  color: rgb(218, 218, 218);
+}
+
+.banner-btn {
+  color: #ffff;
+  background-color: var(--primary);
+}
+
+.banner-btn:hover {
+
+  color: var(--primary);
+  background-color: #ffff;
+}
+
+
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg,
+      #ffffff 0%,
+      #7a1010 29%,
+      #a50815 67%,
+      #a50815 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* card Service */
+
+.card-service i {
+  font-size: 3.5em;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .banner-title {
+    font-size: 4em;
+    font-weight: 500;
+  }
+
+  .en-title {
+    font-size: 1em;
+  }
+
+  .ar-title {
+    font-size: 1em;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+}
